@@ -1,0 +1,26 @@
+.header {
+    align-items: center;
+
+    background-color: $color-primary;
+    color: $color-text-secondary;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+
+    &-navigation {
+        display: flex;
+        align-items: center;
+        background-color: $color-primary;
+        flex-direction: row;
+        height: 3rem;
+
+        &__link {
+            color: $color-text-secondary;
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        margin: 0;
+    }
+}

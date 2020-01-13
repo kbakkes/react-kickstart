@@ -1,0 +1,25 @@
+.home-content{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 55% 45%;
+  border: 1px solid black;
+  background-color: white;
+  padding: 2rem;
+  margin: 0 2rem;
+
+
+
+  &__tagline{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+
+
+  &__intro {
+    background-color: red;
+    flex-basis: 40%;
+    font-size: 15px;
+  }
+}

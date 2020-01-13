@@ -1,0 +1,12 @@
+// import atoms module
+@import "/atoms/module";
+
+
+.active-link{
+    font-weight: 700;
+}
+
+
+@import 'organisms/header';
+@import 'pages/module';
+
