@@ -2,24 +2,29 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 55% 45%;
-  border: 1px solid black;
-  background-color: white;
+  grid-gap: 1rem;
   padding: 2rem;
   margin: 0 2rem;
 
-
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
   &__tagline{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     text-align: left;
   }
 
-
-
   &__intro {
-    background-color: red;
+    padding: 2rem 0 0 0;
     flex-basis: 40%;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
   }
+
 }
